@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "goit-pyweb-hw-02"
+version = "0.1.0"
+description = ""
+authors = ["SvetlanaRomaniuk111 <gatskosv@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.6"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
